@@ -1,0 +1,206 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height:30px;
+    width:30px;
+    border-radius: 10%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start_page, #setting, #store_page, #slide_puzzle{
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height:350px;
+    width:530px;
+    position:absolute;
+    left:120px;
+    top:70px;
+}
+
+#start_page{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.start_button{
+    height: 80px;
+    width: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#music{
+    display: flex;
+    gap: 20px;
+}
+
+.puzzle{
+    background-color: white;
+    display: block;
+    text-align:center;
+    align-items: center;
+    margin:0 auto;
+}
+
+#playboard{
+    width:314px;
+    height:320px;
+    background-color: gray;
+    text-align:center;
+    align-items: center;
+    margin:0 auto;/*置中對齊*/
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:15px;
+    left:10px;
+}
+
+#keyboard{
+    width:150px;
+    height:100px;
+    margin: auto;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    position: absolute;
+    left: 360px;
+    top: 228px;
+}
+
+#gameCondition{
+    width:150px;
+    height:150px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    position: absolute;
+    left: 360px;
+    top: 30px;
+    font-size: 20px;
+    gap:5px;
+}
+
+.direction{
+    width:50px;
+    height:50px;
+
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.key{
+    margin: auto;
+}
+
+#ope{
+    height:100px;
+    width:75px;
+    position: absolute;
+    left: 380px;
+}
+
+.operation {
+    height:30px;
+    width:70px;
+}
+
+#setting_icon{
+    position:absolute;
+    top:5px;
+    left:495px;
+}
+
+#setting{
+    padding-top: 30px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+#help_icon{
+    position:absolute;
+    top:5px;
+    left:460px;
+}
+#help_section{
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    top:100px;
+    left:300px;
+    background-color: ghostwhite;
+    height: 300px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 0cap;
+}
+
+#x_icon{
+    position:absolute;
+    top:5px;
+    left:170px;
+}
+
+#get_coin{
+    height:30px;
+    width:30px;
+    position: absolute;
+    top:150px;
+    left: 150px;
+}
+
+.pictures{
+    height:100px;
+    width:100px
+}
+
+#back, #store_coin{
+    margin-left: 20px;
+}
+
+.store_price{
+    justify-content: space-around;
+}
+
+#info{
+    align-items: center;
+    justify-content: space-around;
+}
+
+#retry{
+    background-color: ghostwhite;
+    width: 300px;
+    position: absolute;
+    left:0px;
+}

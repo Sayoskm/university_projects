@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>final_project</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--slide puzzle-->
+        <h1 class="level">Slide Puzzle</h1>
+        <div id="start_page">
+            <button class="start_button" id="game_start">START</button>
+            <button class="start_button" id="game_store">STORE</button>
+            <div id="music">
+                <img src="images/music_off.webp" id="bgm_st" class="bgm"/>
+                <img src="images/click_on.jpg" id="click_st" class="click"/>
+            </div>
+        </div>
+        <div id="slide_puzzle">
+            <img id="setting_icon" src="images/setting.png"/>
+            <img id="help_icon" src="images/help.png"/>
+            <div id = "playboard">
+            </div>
+            <img id="get_coin" src="images/money.png"/>
+            <div id="gameCondition">
+                <section>
+                    <div>coin:</div>
+                    <div class = "coin" id = "game_coin">0</div>
+                </section>
+                <section>
+                    <div>turns:</div>
+                    <div id = "turns">0</div>
+                </section>
+                <section>
+                    <div id="minute">00</div>
+                    <div>:</div>
+                    <div id="second">00</div>
+                </section>
+            </div>
+            
+            <div id = "control">
+                <section id = "ope">
+                    <button class="operation" id="start">START</button>
+                    <button class="operation" id="pause">PAUSE</button>
+                    <button class="operation" id="reset">RESET</button>
+                </section>
+
+                <div id="keyboard">
+                    <section class="key">
+                        <button class="direction" id="up"></button>
+                    </section>
+                    <section class="key">
+                        <button class="direction" id="left"></button>
+                        <button class="direction" id="down"></button>
+                        <button class="direction" id="right"></button>
+                    </section>   
+                </div>
+            </div>
+            <div id="retry">
+                <div>Do you want to play new puzzle?</div>
+                <button class="operation" id="yes_retry">YES</button>
+                <button class="operation" id="no_retry">NO</button>
+            </div>
+        </div>
+        <!--slide puzzle-->
+
+        <!--setting-->
+        <div id ="setting">
+            <section>
+                <input type="number" value="3" id="puzzleRow" min="3" max="6" />
+                <div>x</div>
+                <input type="number" value="3" id="puzzleCol" min="3" max="6" />
+                <button class="operation" id="change_size">Confirm</button>
+            </section>
+            <button class="operation" id="set_resume">RESUME</button>
+            <button class="operation" id="set_store">STORE</button>
+            <section>
+                <img src="images/music_off.webp" id="bgm_set" class="bgm"/>
+                <img src="images/click_on.jpg" id="click_set" class="click"/>
+            </section>
+        </div>
+        <!--setting-->
+
+        <!--store-->
+        <div id ="store_page">
+            <section id="info">
+                <div id="store_info"></div>
+                <div class = "coin" id="store_coin"></div>
+                <button class="operation" id="back">BACK</button>
+            </section>
+            <div id ="picturesToBuy"></div>
+        </div>
+        <!--store-->
+
+        <!--help-->
+        <div id ="help_section">
+            <div>是否使用100金幣直接通關</div>
+            <div id="coin_return"></div>
+            <section>
+                <div>coin:</div>
+                <div class = "coin" id = "coins">0</div>
+            </section>
+            <img id="x_icon" src="images/x.png"/>
+            <section>
+                <button class="operation" id="yes">YES</button>
+            </section>
+        </div>
+        <!--help-->
+        <script src="main.js"></script>
+    </body>
+</html>
