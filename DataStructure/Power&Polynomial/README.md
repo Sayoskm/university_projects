@@ -4,19 +4,6 @@
 
 This is a **C++/CLI WinForms application** that demonstrates different algorithms for **exponentiation** and **polynomial evaluation**, with a simple GUI to compare performance.
 
-Main features:
-
-* Compute `x^n` using:
-
-  * `pow(x, n)`
-  * for-loop multiplication
-  * square-and-multiply method
-  * optimized square-and-multiply with bit-shifting
-* Evaluate polynomials `f(k)` using:
-
-  * naive method (term-by-term)
-  * Horner’s Rule for efficiency
-
 ---
 
 ## Usage
@@ -34,4 +21,14 @@ Main features:
 * **GUI Interface** – TabControl displays results for easy comparison.
 * **Polynomial Optimization** – Horner’s Rule reduces computation time for large polynomials.
 
+* Compute `x^n` using:
 
+  * `pow(x, n)`
+  * for-loop multiplication
+  * square-and-multiply method
+  * optimized square-and-multiply with bit-shifting
+
+* Evaluate polynomials `f(k)` using:
+
+  * naive method (term-by-term)
+  * Horner’s Rule for efficiency
