@@ -44,9 +44,3 @@ This is a **Python-based Auto Play Robot** designed specifically for the online 
 1. This script is only compatible with [Wood Block Journey](https://www.crazygames.com/game/wood-block-journey).
 2. Do not move your mouse or keyboard during execution to avoid interfering with the automation.
 3. To customize the automation logic, modify the relevant parameters and coordinates in `main.py`.
-
----
-
-## License
-
-This project is for educational and personal use only.
